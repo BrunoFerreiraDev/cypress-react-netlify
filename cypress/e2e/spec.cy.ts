@@ -1,6 +1,8 @@
 describe("template spec", () => {
   it("passes", () => {
-    cy.visit("http://localhost:3001");
+    cy.visit(
+      "https://644155b63b008e000805553e--brilliant-praline-704934.netlify.app"
+    );
 
     cy.contains("Edit src/App.tsx and save to reload.");
   });
